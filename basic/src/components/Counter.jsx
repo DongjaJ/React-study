@@ -4,7 +4,9 @@ export default function Counter({ total, setTotal }) {
 	const [number, setNumber] = useState(0);
 	return (
 		<div className="counter">
-			<span className="number">{`${number}/${total}`} </span>
+			<p className="number">
+				{number} <span className="total">/{total} </span>
+			</p>
 			<button
 				className="button"
 				onClick={() => {
