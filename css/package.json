@@ -38,6 +38,8 @@
   },
   "devDependencies": {
     "eslint-config-react-app": "^7.0.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.8",
     "tailwindcss": "^3.3.2"
   }
 }
